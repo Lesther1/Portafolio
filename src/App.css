@@ -5,3 +5,27 @@
 h3{
   color: #69696F;
 }
+#home-section{
+  display: flex;
+}
+#container-sm{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#social-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+#social-container img{
+  width: 35%;
+  border-radius: 20px;
+}
+#github{
+  background-color: orangered;
+}
