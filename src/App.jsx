@@ -1,18 +1,22 @@
 import './App.css'
+import Socialmedias from './components/home/Socialmedias'
+import Welcome from './components/home/Welcome'
 import Navegationbar from './components/navbar/Navegationbar'
-import Welcome from './components/welcome-section/Welcome'
-import Socialmedias from './components/socialmedias/Socialmedias'
+import CardsList from './components/proyects/CardsList'
 function App() {
 
   return (
     <div>
       <Navegationbar />
-      <div id="home-section">
-        <Welcome />
-        <div id="container-sm">
-          <Socialmedias />
-        </div>
-      </div>
+      <main>
+        <section id='home'>
+          <Welcome/>
+          <Socialmedias/>
+        </section>
+        <section id='proyect'>
+          <CardsList/>
+        </section>
+      </main>
     </div>
   )
 }

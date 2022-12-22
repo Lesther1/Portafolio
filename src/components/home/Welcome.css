@@ -1,0 +1,76 @@
+/* Welcome */
+#welcome-container{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h1{
+    color: #484848;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    cursor: pointer
+  }
+  h3{
+    color: #69696F;
+  }
+  h1 span{
+    transition: .5s linear
+  }
+  h1:hover span:nth-child(1){
+    margin-right: 20px
+  }
+  h1:hover span:nth-child(2){
+    margin-left: 20px
+  }
+  h1:hover #name-1{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+  }
+  h1:hover #name-2{
+    color: #D4AF37;
+    text-shadow: 0 0 10px #D4AF37,
+                 0 0 20px #D4AF37, 
+                 0 0 40px #D4AF37;
+  }
+  @media (max-width: 858px){
+    #welcome-container{
+      margin-left: 13%;
+      width: 75%;
+    }
+    h1{
+      font-size: 29px;   
+    }
+    h3{
+      font-size: 15px;
+      text-align: justify;
+    }
+  }
+
+  /* socialmedias */
+  #social-container{
+    margin-top: 9%;
+    width: 40% ;
+  }
+  #social-container img{
+    margin: 1rem;
+    width: 40%;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  @media (max-width: 858px){
+    #social-container{
+      margin-left: 10%;
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+    } 
+    #social-container img{
+      width: 35%;
+    }
+  }
