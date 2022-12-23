@@ -27,7 +27,7 @@ function App() {
       </main>
       <footer>
         <div>
-          <a href="">about me</a>
+          <h3>Creado por lesther Rey</h3>
         </div>
       </footer>
     </div>

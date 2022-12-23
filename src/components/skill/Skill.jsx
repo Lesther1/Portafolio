@@ -4,7 +4,7 @@ import './skill.css'
 function Skill() {
   return (
     <div id='skill-container'>
-        <h2>SKILLS</h2>
+        <h5>SKILLS</h5>
         <div id='skill'>
             <img src="./public/images/php-logo.png" alt="php" />
             <img src="./public/images/html-logo.png" alt="html" />

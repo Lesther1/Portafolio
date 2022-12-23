@@ -1,12 +1,11 @@
 #skill-container{
     width: 90%;
-    height: 30vh;
-    background-color: #7A1C83;
+    height: 12vh;
+    background-color: #7a1c83a8;
     margin: 5%;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    padding: 2%;
     gap: 1rem;
     text-align: center;
     color: #fff;
@@ -17,6 +16,6 @@
     justify-content: space-around;
 }
 #skill img{
-    width: 70px;
+    width: 30px;
     cursor: pointer;
 }

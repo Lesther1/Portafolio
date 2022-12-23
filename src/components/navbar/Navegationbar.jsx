@@ -9,10 +9,10 @@ function Navegationbar () {
                 </label>
                 <img src="./images/logo.png" alt="logo" />
                 <ul>
-                    <li><a className="active" href="#">Inicio</a></li>
-                    <li><a href="#">Proyectos</a></li>
-                    <li><a href="#">Habilidades</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a className="active" href="#home">Inicio</a></li>
+                    <li><a href="#proyect">Proyectos</a></li>
+                    <li><a href="#skill-contact">Habilidades</a></li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </nav>
         </div>

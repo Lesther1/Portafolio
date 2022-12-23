@@ -9,7 +9,8 @@ function CardsList() {
     "images": './public/images/calculator.png',
     "name": "Calculadora",
     "description": "Proyecto introductorio para el aprendizaje del lenguaje de javascript, y tambien se implementa algunos de los conocimientos adquiridos en html y css para la creacción de una calculadora simple.",
-    "url":"",
+    "url":"https://github.com/Lesther1/calculator",
+    "despliegue" : "https://lesther1.github.io/calculator/",
     "tegnologia": "Javascript",
     "logo": "https://img.icons8.com/color/48/null/javascript--v1.png",
   },
@@ -27,7 +28,8 @@ function CardsList() {
     "images": './public/images/nft.png',
     "name": "Pages Nft",
     "description": " Una landing page de NFT es una página web diseñada para promocionar y vender NFT (non-fungible tokens), que son tokens digitales únicos que representan activos digitales.",
-    "url":"",
+    "url":"https://github.com/Lesther1/web2-nft",
+    "despliegue":"https://lesther1.github.io/web2-nft/",
     "tegnologia": "Bootstrap 5",
     "logo": "https://img.icons8.com/color/48/null/bootstrap.png",
   },
@@ -55,11 +57,15 @@ function CardsList() {
     "images": './public/images/rick-and-morty.png',
     "name":"Rick and morty api",
     "description": "Rick and morty api",
+    "url":"https://github.com/Lesther1/Rick-and-Morty-api",
+    "despliegue" : "",
     "tegnologia": "React",
     "logo": "https://img.icons8.com/office/16/null/react.png",
   }
   ];
   return (
+    <div>
+    <h3 id='title-card'>Proyectos</h3>
     <div id='card-list'>
       {
         datacards.map(datacard=>{
@@ -68,6 +74,7 @@ function CardsList() {
           )
         })
       }
+    </div>
     </div>
   )
 }

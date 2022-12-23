@@ -3,7 +3,7 @@ import './contact.css'
 function Contact() {
   return (
     <div id='form-container'>
-        <h4>Escribe tu comentario o si necesitas algun desarrollo</h4>
+        <h4>Contactame</h4>
         <form action="">
             <input type="text" placeholder='Nombre' />
             <input type="text" placeholder='Correo' />
