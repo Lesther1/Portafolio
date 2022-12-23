@@ -4,16 +4,19 @@ function Cards({datacard}) {
   return (
     <div id='card-container'>
         <div id='card-header'>
-            <img src="https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg" alt="rover" />
+            <img src={datacard.images} alt="" id='portada' />
         </div>
         <div id='card-body'>
             <h3>{datacard.name}</h3>
-            <h4>{datacard.description}</h4>
-            <a href="">ver</a>
+            <p>{datacard.description}</p>
+            <div id='btn-container'>
+              <a href={datacard.url}><img src="https://img.icons8.com/ios/50/null/github--v1.png"/></a>
+              <a href={datacard.despliegue}><img src="https://img.icons8.com/ios-glyphs/30/null/ophthalmology.png"/></a>
+            </div>
         </div>
         <div id='card-footer'>
             <p>{datacard.tegnologia}</p>
-            <p>{datacard.logo}</p>
+            <img src={datacard.logo} alt="" id="logo-cards" />
         </div>
     </div>
   )

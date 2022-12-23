@@ -33,7 +33,7 @@ nav ul li a{
 #check{
   display: none;
 }
-a:hover{
+nav a:hover{
   font-weight: bolder;
   padding-bottom: 24px;
   color: #D4AF37;
